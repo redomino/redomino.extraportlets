@@ -1,4 +1,4 @@
-from Products.ContentWellportlets.browser.viewlets import ContentWellPortletsViewlet
+from Products.ContentWellPortlets.browser.viewlets import ContentWellPortletsViewlet
 
 class PortletsBelowTitleViewlet(ContentWellPortletsViewlet):
     name = 'BelowTitlePortletManager'

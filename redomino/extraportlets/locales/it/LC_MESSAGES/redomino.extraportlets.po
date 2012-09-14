@@ -1,0 +1,24 @@
+# Maurizio Lupo, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ContentWellPortlets 2.0\n"
+"POT-Creation-Date: 2012-09-14 09:32+0000\n"
+"PO-Revision-Date: 2010-01-18 09:34-0400\n"
+"Last-Translator: Maurizio Lupo <maurizio.lupo@redomino.com>\n"
+"Language-Team: Italian <info@redomino.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: redomino.extraportlets\n"
+"Language-code: it\n"
+"Language-name: Italian\n"
+
+#. Default: "Add, edit or remove a portlet below the content title"
+#: ./browser/templates/portletsbelowcontenttitle.pt:17
+msgid "manage_portlets_below_title_link"
+msgstr "Gestisci portlet sotto il titolo"
+
