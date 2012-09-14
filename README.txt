@@ -3,4 +3,4 @@ Introduction
 
 
 
-This product may contain traces of nuts.
+This product extends Products.ContentWellPortlets with new portlet managers
