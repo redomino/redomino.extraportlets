@@ -1,0 +1,31 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="redomino.extraportlets">
+
+    <include package ="plone.app.portlets" />
+
+
+<!-- BELOW TITLE PORTLETS -->
+<!-- add a viewlet to the footer area -->
+    <browser:viewlet
+         name="contentwellportlets.belowtitleportlets"
+         class=".viewlets.PortletsBelowTitleViewlet"
+         manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+         layer=".interfaces.IRedominoExtraPortlets"
+         permission="zope2.View"
+         template="templates/portletsbelowcontenttitle.pt"
+    /> 
+
+<!-- add a management view for the portlet manager -->
+    <browser:page
+         name="manage-portletsbelowtitlecontent"
+         for="plone.portlets.interfaces.ILocalPortletAssignable"
+         class="plone.app.portlets.browser.manage.ManageContextualPortlets"
+         template="templates/manageportletsbelowtitle.pt"
+         layer=".interfaces.IRedominoExtraPortlets"
+         permission="plone.app.portlets.ManagePortlets"
+    />
+
+</configure>

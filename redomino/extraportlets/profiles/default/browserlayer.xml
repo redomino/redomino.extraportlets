@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layers>
+ <layer name="RedominoExtraPortlets"
+   interface="redomino.extraportlets.browser.interfaces.IRedominoExtraPortlets"
+ />
+</layers>

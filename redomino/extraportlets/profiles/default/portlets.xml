@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Set up all the new portlet managers we need above and below the content well -->
+<portlets>
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager1"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager2"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager3"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager4"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager5"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager6"
+         type="redomino.extraportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+</portlets>
